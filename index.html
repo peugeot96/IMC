@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+<body style= "background-color: #0093E9;
+background-image: linear-gradient(90deg, #0093E9 25%, #80D0C7 59%);
+
+
+
+
+
+
+">
+    <h1 style="font-family: fantasy;" class="d-flex justify-content-center mt-3">CALCULAR IMC</h1>
+
+    <form id="calcular-imc" class="d-flex justify-content-center" action="#">
+        <div class="form-group">
+            <label for="gasto">PESO:</label>
+            <input type="text" class="form-control"  id="peso" placeholder="ejem: 67">
+        </div>
+        <div class="form-group">
+            <label for="cantidad">ALTURA:</label>
+            <input type="text" class="form-control" id="altura" placeholder="ejem: 180">
+        </div>
+
+        
+        
+        <button type="submit" id="boton-calcular" class="btn btn-primary mt-4 m-2">CALCULAR</button>
+         
+        
+    </form>
+    <div class="d-flex justify-content-center" style="font-size: 20px" id="resultado"></div>
+
+
+    <section class="d-flex justify-content-center mt-4">
+        <p class="text-center fw-bold">
+            
+
+                El índice de masa corporal (IMC) es un indicador simple de la relación entre el peso y la talla que se utiliza frecuentemente <br> 
+               para identificar el sobrepeso y la obesidad en los adultos. Se calcula dividiendo el peso de una persona en kilos por el 
+               cuadrado de su talla en metros (kg/m2).
+
+        
+        </p>
+    </section>
+    <div class="d-flex justify-content-center mt-5">
+        <img  class="img-fluid" src="./base/base.png" alt="base-imc">
+    </div>
+    
+  
+    
+    <footer class="d-flex justify-content-center ">
+
+        <p  class="fw-bold mt-4 bg text-center">
+          Hecho por Ivan ortega con <a href="https://ivanortega.netlify.app/" target="_blank" rel="noopener noreferrer">❤</a>
+        </p>
+
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
