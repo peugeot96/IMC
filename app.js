@@ -50,7 +50,3 @@ form.addEventListener("submit", function(e){
     }
 
 })
-
-// let persona = new datos()
-
-// persona.imc()
